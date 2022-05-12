@@ -17,6 +17,10 @@ const tabs = {
     settings: document.getElementById("settings-tab"),
 };
 window.addEventListener("load", () => {
+    setText("/html/body/div[1]/header/div[3]/nav/a[2]", "プルリクエスト");
+    setText("/html/body/div[1]/header/div[3]/nav/a[3]", "課題");
+    setText("/html/body/div[1]/header/div[3]/nav/div/a", "マーケットプレイス");
+    setText("/html/body/div[1]/header/div[3]/nav/a[4]", "見つける");
     tabs.code.querySelector("span").innerHTML = "コード";
     tabs.issues.querySelector("span").innerHTML = "課題";
     tabs.pullRequests.querySelector("span").innerHTML = "プルリクエスト";
@@ -30,6 +34,21 @@ window.addEventListener("load", () => {
     //   "クローン"
     // );
     setText("/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[2]/div/div[1]/div/h2", "このリポジトリについて");
-    setText("/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[2]/div/div[2]/div/h2/a", "リリース");
-    setText("/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[2]/div/div[6]/div/h2", "使用している言語");
+    // setText(
+    //   "/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[2]/div/div[2]/div/h2/a",
+    //   "リリース"
+    // );
+    // setText(
+    //   "/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[2]/div/div[6]/div/h2",
+    //   "使用している言語"
+    // );
+    // setText(
+    //   "/html/body/div[1]/header/div[7]/details/details-menu/a[1]",
+    //   "プロフィール"
+    // );
+    // setText(
+    //   "/html/body/div[1]/header/div[7]/details/details-menu/a[2]",
+    //   "リポジトリ"
+    // );
+    // setText("/html/body/div[1]/header/div[7]/details/details-menu/a[11]", "設定");
 });

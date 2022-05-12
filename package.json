@@ -1,0 +1,16 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.184",
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0",
+    "ts-loader": "^9.3.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}

@@ -25,7 +25,10 @@ window.addEventListener("load", () => {
     tabs.security.querySelector("span").innerHTML = "セキュリティ";
     tabs.insights.querySelector("span").innerHTML = "インサイト";
     tabs.settings.querySelector("span").innerHTML = "設定";
-    setText("/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[1]/div[2]/span/get-repo/feature-callout/details/div/div/div[1]/ul/li[1]/div", "クローン");
+    // setText(
+    //   "/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[1]/div[2]/span/get-repo/feature-callout/details/div/div/div[1]/ul/li[1]/div",
+    //   "クローン"
+    // );
     setText("/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[2]/div/div[1]/div/h2", "このリポジトリについて");
     setText("/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[2]/div/div[2]/div/h2/a", "リリース");
     setText("/html/body/div[5]/div/main/div[2]/div/div/div[3]/div[2]/div/div[6]/div/h2", "使用している言語");
